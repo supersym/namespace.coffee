@@ -1,4 +1,4 @@
-# [namespace.coffee](http://github.com/CodeCatalyst/namespace) v1.0.0  
+# [namespace.coffee](http://github.com/CodeCatalyst/namespace.coffee) v1.0.0  
 # Copyright (c) 2011 [CodeCatalyst, LLC](http://www.codecatalyst.com/).  
 # Open source under the [MIT License](http://en.wikipedia.org/wiki/MIT_License).
 
