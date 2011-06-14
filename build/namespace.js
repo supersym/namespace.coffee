@@ -1,6 +1,6 @@
 /*
  * namespace.coffee v1.0.0
- * Copyright (c) 2001 CodeCatalyst, LLC.
+ * Copyright (c) 2011 CodeCatalyst, LLC.
  * Open source under the MIT License.
  */
 (function() {
