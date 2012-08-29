@@ -1,5 +1,5 @@
-# [namespace.coffee](http://github.com/CodeCatalyst/namespace.coffee) v1.0.0  
-# Copyright (c) 2011 [CodeCatalyst, LLC](http://www.codecatalyst.com/).  
+# [namespace.coffee](http://github.com/CodeCatalyst/namespace.coffee) v1.0.1
+# Copyright (c) 2011-2012 [CodeCatalyst, LLC](http://www.codecatalyst.com/).
 # Open source under the [MIT License](http://en.wikipedia.org/wiki/MIT_License).
 
 # A lean namespace implementation for JavaScript written in [CoffeeScript](http://coffeescript.com/).
@@ -13,6 +13,8 @@ namespace = ( name, values ) ->
 		target = target[ subpackage ] ||= {} for subpackage in name.split( '.' ) 
 	# Export each value in the specified values Object to the specified package name by the value's key.
 	target[ key ] = value for key, value of values
+	# Return a reference to the specified namespace.
+	return target
 
 # *Export the namespace function to global scope, using itself.*
-namespace( "", namespace: namespace )
+namespace( '', namespace: namespace )
